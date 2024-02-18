@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif ;
+;
+}
+ul li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    margin: 50px;
+}
+
+
+.header-container{
+    background-color: rgb(55, 55, 118);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+
+}
+.head-menu{
+    display: flex;
+    
+}
