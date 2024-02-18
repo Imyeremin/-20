@@ -15,9 +15,14 @@ a{
 }
 
 body{
-    margin: 50px;
+    margin: 180px;
+    ;
 }
 
+.main-container,
+.header-container{
+    padding: 20px 100px ;
+}
 
 .header-container{
     background-color: rgb(55, 55, 118);
@@ -25,11 +30,45 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 50px;
+   
 
 }
 .head-menu{
     display: flex;
     
 }
+.head-menu > li{
+    margin: 0px 10px;
+}
+
+.radio-container > label{
+    margin-right: 10px;
+}
+
+.location{
+    background: url(img/location.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: calc(100% - 5px) ;
+}
+.calendar{
+    background: url(img/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: calc(100% - 5px) ;
+}
+.location,
+.calendar,
+.criterii-container > select{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+}
+.btn{
+    background-color: rgb(55, 55, 118);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
