@@ -18,10 +18,14 @@ body{
     margin: 180px;
     ;
 }
+main{
+    background-color: rgb(251, 250, 249);
+;
+}
 
 .main-container,
 .header-container{
-    padding: 20px 100px ;
+    padding: 20px 80px ;
 }
 
 .header-container{
@@ -72,3 +76,46 @@ body{
 }
 
 
+.filter > label{
+    display: block;
+    margin: 10px 0px;
+    padding: 0px 20px;
+
+}
+
+.filter > h3{
+    padding: 20px;
+}
+.filter > p,
+.price > p{
+    padding: 10px 20px;
+    color:  rgb(55, 55, 118);
+    font-weight: bold;
+}
+
+.min-max{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-bottom: 20px;
+  
+}
+.min,
+.max{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+
+}
+.mach{
+    text-align: center;
+   
+}
+.pad{
+    padding-right: 10px;
+}
+.min{
+    margin-left: 20px;
+    
+}
+ 
