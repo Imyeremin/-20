@@ -37,7 +37,8 @@ main{
    
 
 }
-.head-menu{
+.head-menu,
+.content-container{
     display: flex;
     
 }
@@ -54,19 +55,27 @@ main{
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: calc(100% - 5px) ;
+    border-radius: 5px;
+    
 }
 .calendar{
     background: url(img/calendar.svg);
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: calc(100% - 5px) ;
+    border-radius: 5px;
+ 
 }
+
 .location,
 .calendar,
 .criterii-container > select{
     padding: 5px;
     margin: 10px;
     margin-left: 0;
+    background-color: white;
+    border-radius: 5px;
+
 }
 .btn{
     background-color: rgb(55, 55, 118);
@@ -92,7 +101,12 @@ main{
     color:  rgb(55, 55, 118);
     font-weight: bold;
 }
-
+.filter-container{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
 .min-max{
     display: flex;
     flex-direction: row;
@@ -119,3 +133,58 @@ main{
     
 }
  
+.ticket-content{
+    margin-left:10px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.ticket-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 270px;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+.ticket-menu-ul{
+    display: flex;
+}
+.ticket-menu-ul > li{
+    padding: 10px 30px;
+    color: rgb(55, 55, 118) ;
+    font-weight: bold;
+    font-size: 12PX;
+}
+.ticket-menu-ul > .mar{
+   margin-left:15px;
+}
+
+.ticket-list{
+    display: flex;
+  
+   
+}
+.ticket-list > div{
+   padding: 10px 35px  10px 30px;
+   
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div > span{
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.5);
+}
+.btn ~ span{
+    color: rgb(55, 55, 118)
+}
+.ticket-list-full{
+    background-color: white;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
