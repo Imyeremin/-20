@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif ;
-;
 }
+
 ul li{
     list-style: none;
-
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -16,11 +16,9 @@ a{
 
 body{
     margin: 180px;
-    ;
 }
 main{
     background-color: rgb(251, 250, 249);
-;
 }
 
 .main-container,
@@ -34,14 +32,13 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-
 }
+
 .head-menu,
 .content-container{
-    display: flex;
-    
+    display: flex; 
 }
+
 .head-menu > li{
     margin: 0px 10px;
 }
@@ -55,16 +52,15 @@ main{
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: calc(100% - 5px) ;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
+
 .calendar{
     background: url(img/calendar.svg);
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: calc(100% - 5px) ;
     border-radius: 5px;
- 
 }
 
 .location,
@@ -75,8 +71,8 @@ main{
     margin-left: 0;
     background-color: white;
     border-radius: 5px;
-
 }
+
 .btn{
     background-color: rgb(55, 55, 118);
     color: white;
@@ -84,53 +80,54 @@ main{
     border-radius: 5px;
 }
 
-
 .filter > label{
     display: block;
     margin: 10px 0px;
     padding: 0px 20px;
-
 }
 
 .filter > h3{
     padding: 20px;
 }
+
 .filter > p,
 .price > p{
     padding: 10px 20px;
     color:  rgb(55, 55, 118);
     font-weight: bold;
 }
+
 .filter-container{
     background-color: white;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 12px;
 }
+
 .min-max{
     display: flex;
     flex-direction: row;
     align-items: end;
     margin-bottom: 20px;
-  
 }
+
 .min,
 .max{
     display: flex;
     flex-direction: column;
     width: 70px;
-
 }
+
 .mach{
     text-align: center;
-   
 }
+
 .pad{
     padding-right: 10px;
 }
+
 .min{
-    margin-left: 20px;
-    
+    margin-left: 20px;  
 }
  
 .ticket-content{
@@ -138,6 +135,7 @@ main{
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 12px;
 }
+
 .ticket-logo{
     display: flex;
     justify-content: center;
@@ -146,42 +144,45 @@ main{
     background-color: white;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-
 }
+
 .ticket-menu-ul{
     display: flex;
 }
+
 .ticket-menu-ul > li{
     padding: 10px 30px;
     color: rgb(55, 55, 118) ;
     font-weight: bold;
     font-size: 12PX;
 }
+
 .ticket-menu-ul > .mar{
    margin-left:15px;
 }
 
 .ticket-list{
-    display: flex;
-  
-   
+    display: flex;  
 }
+
 .ticket-list > div{
-   padding: 10px 35px  10px 30px;
-   
+   padding: 10px 35px  10px 30px;   
     border-bottom: 1px solid rgb(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 div > span{
     font-size: 12px;
     color: rgb(0, 0, 0, 0.5);
 }
+
 .btn ~ span{
     color: rgb(55, 55, 118)
 }
+
 .ticket-list-full{
     background-color: white;
     padding-bottom: 30px;
